@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <title>Expenses Chart</title>
+</head>
+
+<body>
+
+    <main class="container">
+        <header class="balance">
+            <div>
+                <h3 class="balance__header">My balance</h3>
+                <span class="balance__amount">$921.48</span>
+            </div>
+            <img src="./images/logo.svg" alt="company-logo" class="balance__logo">
+        </header>
+
+        <section class="spending">
+            <h1 class="spending__header">Spending - Last 7 days</h1>
+
+            <div class="spending__chart">
+                <div class="spending__chart-bars">
+                    <span class="spending__chart-bars-day">mon</span>
+                </div>
+                <div class="spending__chart-bars">
+                    <span class="spending__chart-bars-day">tue</span>
+                </div>
+                <div class="spending__chart-bars">
+                    <span class="spending__chart-bars-day">wed</span>
+                </div>
+                <div class="spending__chart-bars">
+                    <span class="spending__chart-bars-day">thu</span>
+                </div>
+                <div class="spending__chart-bars">
+                    <span class="spending__chart-bars-day">fri</span>
+                </div>
+                <div class="spending__chart-bars">
+                    <span class="spending__chart-bars-day">sat</span>
+                </div>
+                <div class="spending__chart-bars">
+                    <span class="spending__chart-bars-day">sun</span>
+                </div>
+            </div>
+
+            <div class="spending__total">
+                <p class="spending__total-monthly">Total this month</p>
+                <span class="spending__total-amount">$478.33</span>
+                <div class="flex"><span class="percentage">+2.4%</span><span class="last-month">from last
+                        month</span></span>
+                </div>
+
+        </section>
+
+
+    </main>
+
+</body>
+
+</html>
